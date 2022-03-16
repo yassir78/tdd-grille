@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 
 public class Grille {
 
@@ -95,6 +96,18 @@ public class Grille {
             sb.append("\n");
         }
         return sb.toString();
+    }
+
+    public List<char[]> getLignes() {
+        return null;
+    }
+
+    public List<char[]> getColonnes() {
+        return null;
+    }
+
+    public List<char[]> getDiagonales() {
+        return null;
     }
 
     public void reset() {
