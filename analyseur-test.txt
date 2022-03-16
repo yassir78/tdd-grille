@@ -1,0 +1,35 @@
+
+Test List Analyseur : 
+
+- ShouldReturnAWinnerWhengivenAGridWithFirstColumnFilledWith4ConsecutiveSimilarTokens
+- ShouldReturnAWinnerWhengivenAGridWithFirstRowFilledWith4ConsecutiveSimilarTokens
+- ShouldReturnAWinnerWhengivenAGridWithADiaglonalDexterFilledWith4ConsecutiveSimilarTokens
+- ShouldReturnAWinnerWhengivenAGridWithADiaglonalSinisterFilledWith4ConsecutiveSimilarTokens
+- ShouldReturnDrawWhengivenAGridWithNoColumnFilledWith4ConsecutiveSimilarTokens
+- ShouldReturnDrawWhengivenAGridWithNoRowFilledWith4ConsecutiveSimilarTokens
+- ShouldReturnDrawWhengivenAGridWithNoDiagonalDexterFilledWith4ConsecutiveSimilarTokens
+- ShouldReturnDrawWhengivenAGridWithNoDiagonalSinisterFilledWith4ConsecutiveSimilarTokens
+
+
+Test List Application :
+
+- applicationShouldDisplayAWelcomeMessageAndAskTheFirstPlayerToChooseAColumn
+
+- applicationShouldInsertTheTokenInTheCorrectColumnIndicatedByThePlayer
+
+- apllicationShouldAskNextPlayerToChooseAColumnWhenTheGameIsStillGoing
+
+- applicationShouldStopAndDisplayTheWinnerWhenHeIsFound
+
+- applicationShouldStopAndDisplayADrawMessageWhenTheGridIsFull
+
+
+
+
+
+
+
+
+
+
+
